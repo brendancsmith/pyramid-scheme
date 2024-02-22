@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyramid-scheme"
+version = "0.1.0"
+description = "An implementation of an Ethereum smart contract pyramid scheme"
+authors = ["Brendan Smith"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "1.1.2"
+web3 = "5.17.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
